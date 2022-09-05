@@ -100,7 +100,7 @@ font-weight: 700;
 text-align: center;
 line-height: 1.75rem;
 margin-bottom: 1rem;
-color: var(--Dark_blue);
+color: hsl(218, 44%, 22%);
 }
 
 .container-content .paragraph {
