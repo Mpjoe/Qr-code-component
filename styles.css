@@ -48,14 +48,6 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-:root{
-/*------Colors-------*/
---White: hsl(0, 0%, 100%);
---Light_gray: hsl(212, 45%, 89%);
---Grayish_blue: hsl(220, 15%, 55%);
---Dark_blue: hsl(218, 44%, 22%);
-}
-
 body {
 display: flex;
 align-items: center;
@@ -64,13 +56,13 @@ flex-direction: column;
 min-height: 100vh;
 font-family: "Outfit"; serif;
 font-size: 15px;
-background-color: var(--Light_gray);
+background-color: hsl(212, 45%, 89%);
 }
 
 /*-----For 375-667 Mobile-----*/
 
 .container{
-background-color: var(--White);
+background-color: hsl(0, 0%, 100%);
 max-width: 18rem;
 padding: 1rem;
 margin: 1rem;
@@ -93,7 +85,7 @@ font-size: 1.375rem;
 font-weight: 700;
 text-align: center;
 line-height: 1.25rem;
-color: var(--Dark_blue);
+color: hsl(218, 44%, 22%);
 }
 
 .paragraph {
@@ -103,7 +95,7 @@ font-weight: 400;
 text-align: center;
 margin-top: 1rem;
 margin-bottom: 1.5rem;
-color: var(--Grayish_blue);
+color: hsl(220, 15%, 55%);
 line-height: 1.19rem;
 }
 
