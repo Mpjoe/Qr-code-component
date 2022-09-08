@@ -10,13 +10,6 @@
 }
 
 /*
-  3. Allow percentage-based heights in the application
-*/
-html, body {
-  height: 100%;
-}
-
-/*
   Typographic tweaks!
   4. Add accessible line-height
   5. Improve text rendering
@@ -78,49 +71,43 @@ background-color: var(--Light_gray);
 
 .container{
 background-color: var(--White);
-max-width: 20rem;
-padding: 1rem 1rem 0rem 1rem;
+max-width: 18rem;
+padding: 1rem;
+margin: 1rem;
 border-radius: 1.25rem;
 box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05)
 }
 
-.image-qr-code{
+.qr-code{
 max-width: 100%;
 border-radius: 0.625rem;
 }
 
 .container-content{
-margin: 1.5rem 1rem 2.5rem 1rem;
+margin-top: 1.5rem;
 
 }
 
-.container-content .title {
+.title {
 font-size: 1.375rem;
 font-weight: 700;
 text-align: center;
-line-height: 1.75rem;
-margin-bottom: 1rem;
-color: hsl(218, 44%, 22%);
+line-height: 1.25rem;
+color: var(--Dark_blue);
 }
 
-.container-content .paragraph {
-font-size: 0.93rem;
+.paragraph {
+font-size: 0.9375rem;
+line-height: 1.5;
 font-weight: 400;
 text-align: center;
+margin-top: 1rem;
+margin-bottom: 1.5rem;
 color: var(--Grayish_blue);
 line-height: 1.19rem;
 }
 
-.attribution {
+/*.attribution {
 margin-top: 2rem;
 }
-
-/*----Desktop 1440px----*/
-
-@media (min-width: 600px) {
-
-.container{
-  max-width: 20rem;
-}
-
-}
+*/
